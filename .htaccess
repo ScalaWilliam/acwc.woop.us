@@ -1,0 +1,11 @@
+RewriteEngine On
+
+RewriteRule ^2010/$ 2010/private/view.php?view=index [L]
+RewriteRule ^2010/feed\.xml$ 2010/private/view.php?view=feed [L]
+RewriteRule ^2010/(teams|rules|registration|tree|matches)$ 2010/private/view.php?view=$1 [L]
+RewriteRule ^2010/unixtime\.do$ 2010/private/unixtime.php [L]
+RewriteRule ^2010/contact\.do$ 2010/private/contact.php [L]
+
+# Block all MSIE. We hate that shit :)
+RewriteCond %{HTTP_USER_AGENT} ^.*MSIE
+RewriteRule ^.* /msie.html [F,L]

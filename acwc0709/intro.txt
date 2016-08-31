@@ -1,0 +1,76 @@
+## AC World Cup - ACWC ##
+
+
+# So, what's happening? #
+
+The cup was originally meant to start on 19th June but was delayed to
+19th July because the organiser (Nighthawk) simply has not enough time
+for it. Since he's not responding to my e-mails, I decided that it'd be
+better to get a vote from people for me to take care of the ACWC perhaps
+along with a few others that I may select.
+
+
+##############################################################################
+# 
+#  # For the simple minded #
+#
+#  * Countries join first-come first-serve
+#  * Deadline: 16th July [Thursday]
+#  * If there is more than one in-country team, they face off on 18th July [Friday]
+#  * On 17th July, we'll provide the list of fighters and the times [Friday]
+#  * 18th July, the 8 countries fight [Saturday]
+#  * 19th July, the 4 countries fight in the semi-final [Sunday] 
+#  * 26th July, the 2 countries fight in the final [Sunday]
+#  * Games are best-of-three (or best-of-two)
+#  * Servers are run in a geographically convenient area
+#  * To join, read below
+#  * Contact info: comp -at- woop -period- us
+#
+#############################################################################
+
+# How the teams are selected #
+
+Find yourself a team of 4 players who are currently living in the same country
+or have the same nationality, one being a substitute and the other three being
+the main players. A country is allowed more than one team. I decided this
+because there may be disputes between who is actually going to represent
+their country. The first 8 countries to sign up will be on the list. Only one
+actual team of a country will compete in the cup. Before that, for example,
+if a Brazilian team signs up 5th, and then another Brazilian team signs up 9th,
+we will have a face-off between the two teams to find out which is the better
+one to represent their team. We will do these games on 18th July.
+
+
+# How to enter your team #
+
+E-mail to: 	comp -at- woop -period- us    (period = .) 
+I'll need: Country name, list of players, their contacts (at least 2),
+any IRC channels and timezone information (which UTC timezone each person is
+located in). 
+
+
+# How it will be organised #
+
+Still depends on how many teams join in. Currently we take it to be 8 countries.
+We hope that you are prepared on the 18th throughout the whole day (it's a Saturday)
+and 19th (Sunday) for the whole day too, to play any games.
+Don't sign up if it's not possible.
+
+Random assignments will be made for the first matches and times will be chosen the
+day before, so please check the website. 
+
+On the day of the games, you will already know the times for which you have to turn
+up to the servers and which team you will be playing against. Anybody not turning up
+will forfeit by default. Missing players can be filled in only if they are from the
+same country. Substitutes will be called in as soon as they are required and games
+must pause whenever someone quits by software or hardware error.
+
+In total, each face-off between two teams will be based on a best-of-three outcome.
+If there is a tie at the end of a match, it is counted as +0 to both teams, and if 
+not, the winning team gets +1 and the losing team gets +0. First two games must be
+played, and if the teams have the same score, games are continued for as long as
+necessary to give a differentiating score. The team with more points wins.
+
+After the first day is complete, we'll get onto the 19th July, and complete the second
+round. After that, we'll have two teams left, which will fight in a final the week
+after with special arrangements.

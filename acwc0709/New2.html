@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>X</title>
+<script type="text/javascript">
+function ajaxFunction() {if (window.XMLHttpRequest) { return XMLHttpRequest(); } else if (window.ActiveXObject) { return new ActiveXObject("Microsoft.XMLHTTP"); } else { return false;  } };
+var lshift;
+window.onload = function()
+{
+	var xhr = ajaxFunction();
+	xhr.onreadystatechange = function() {
+	if (xhr.readyState == 4) {
+		lshift = xhr.responseText;
+		makeUpdate(res[1]);
+	}
+	};
+	var now = new Date();
+	xhr.open('GET', '/unixtime.php?time='+
+			escape(now.getFullYear()+"/"+(1+now.getMonth())+"/"+now.getDate()+" "+
+				now.getHours()+":"+now.getMinutes()+":"+now.getSeconds()), true);
+	xhr.send(null);
+};
+</script>
+</head>
+<body>
+</body>
+</html>

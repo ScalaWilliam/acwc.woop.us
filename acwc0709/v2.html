@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+      "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>AssaultCube World Cup</title>
+</head>
+
+<body>
+<h1>AssauleCube World Cup v2</h1>
+<h2>Registration</h2>
+<form method="post" enctype="multipart/form-data" action="v2.php">
+<dl>
+<dt><label for="fr_teamname">Team name:</label></dt>
+<dd><input id="fr_teamname" name="teamname" type="text" value=""></dd>
+<dt><label for="fr_location">Team country/region:</label></dt>
+<dd><input id="fr_location" name="location" type="text" value=""></dd>
+<dt><label for="fr_timezone">Timezone</label></dt>
+<dd><input id="fr_timezone" name="timezone" type="text" value=""></dd>
+<dt><label for="fr_player_1_name">Player 1 (you):</label></dt>
+<dd><label>Name: <input id="fr_player_1_name" name="player[1][name]" type="text" value=""></label> <label>E-mail: <input type="text" name="player[1][mail]" value=""></label> <label>Role: <select name="player[1][role]"><option value="2" selected>Captain (main player)</option><option value="3">Captain (substitute)</option></select></label></dd>
+<dt><label for="fr_player_2_name">Player 2</label></dt>
+<dd><label>Name: <input id="fr_player_2_name" name="player[2][name]" type="text" value=""></label> <label>E-mail: <input type="text" name="player[2][mail]" value=""></label> <label>Role: <select name="player[2][role]"><option value="0" selected>Main player</option><option value="1">Substitute</option></select></dd>
+<dt><label for="fr_player_3_name">Player 3</label></dt>
+<dd><label>Name: <input id="fr_player_3_name" name="player[3][name]" type="text" value=""></label> <label>Role: <select name="player[3][role]"><option value="0" selected>Main player</option><option value="1">Substitute</option></select></label></dd>
+<dt><label for="fr_player_4_name">Player 4</label></dt>
+<dd><label>Name: <input id="fr_player_4_name" name="player[4][name]" type="text" value=""></label> <label>Role: <select name="player[4][role]"><option value="0">Main player</option><option value="1" selected>Substitute</option></select></label></dd>
+<dt><label for="fr_player_5_name">Player 5</label></dt>
+<dd><label>Name: <input id="fr_player_5_name" name="player[5][name]" type="text" value=""></label> <label>Role: <select name="player[5][role]"><option value="0">Main player</option><option value="1" selected>Substitute</option></select></label></dd>
+<dd><input type="submit" value="I have agreed to all of the rules. Sign me and my team up."></dd>
+</dl>
+</form>
+<h2>Rules</h2>
+<h3>1. Teams and organization</h3>
+<ol>
+<li>Registrations are accepted from everyone. There is no affiliation
+with previous 'official teams', nor we discriminate between reputaion of any groups.</li>
+<li>Multiple teams can represent any single country or region.
+Matches will be fought to represent that country or region.</li>
+<li>A region is defined as a union of countries which do not have any players in common with any other countries or regions.</li>
+<li>These teams may be represent by anybody who is willing and able to
+compete.</li>
+<li>The size of the teams is required to be 3 main players and at most 2 substitutes,
+one of which must be the captain.</li>
+<li>If there are no players available to play, there are two choices:
+1) play an unbalanced game 2) forfeit. The decision is made by the captain.</li>
+<li>For signing up, players are required to actually be able to attend.
+'Empty' registrations (such that only 2 players are committed to playing) will be rejected.</li>
+<li>Continuing from the above, if any of your players is very unlikely to turn up, just don't sign them up.</li>
+</ol>
+<h3>2. Responsibilities</h3>
+<h4>2.1. Referees</h4>
+<ol>
+<li>To maintain the homepage accordingly to the times of the games and the results.</li>
+<li>To inform all of the captains to the best of their ability of any changes.</li>
+<li>To maintain the servers; referee and control the matches as necessary.</li>
+<li>To make sure everything 'goes smoothly'. </li>
+</ol>
+<h4>2.2. Captains</h4>
+<ol>
+<li>To inform all of the players of the times and dates of the matches.</li>
+<li>To inform the referees of any changes in the line-ups.</li>
+<li>To inform all of the players of the server information and make
+sure they get to the matches on time.</li>
+<li>The times of the matches will be decided by the referees and if any
+appeals are to be made, they must be done at least 24 hours prior to the games,
+so both sides could agree to a certain time.</li>
+<li>The above applies to changing the line-ups too.</li>
+</ol>
+<h3>3. Score counting</h3>
+<h4>CTF</h4>
+<ol>
+<li>CTF scores are aggregated.</li>
+<li>Highest flags win.</li>
+<li>If flags are equal, highest frags win.</li>
+<li>If flags are equal and frags are equal, lowest deaths win.</li>
+</ol>
+<h4>TDM &amp; TOSOK</h4>
+<ol>
+<li>Scores are aggregated.</li>
+<li>Highest frags win.</li>
+<li>If frags are equal, lowest deaths win.</li>
+</ol>
+<h3>4. Conduct</h3>
+<ol>
+<li>Any deliberately demeaning offense may lead to disqualification.
+It is up to the referees to decide.</li>
+<li>Cheating (aimbot, wallhack, healthack, map modification) will lead to disqualification.</li>
+<li>Modified skins may be used, whereas modified playermodels must not be.</li>
+</ol>
+</body>
+</html>

@@ -1,0 +1,87 @@
+body { background-image:url(bg.jpg); background-attachment:fixed;background-position:center top;overflow-y:scroll;font-family:Bitstream Vera Sans,sans-serif;background-color:gray; }
+#mb a { color:silver;text-decoration:none;border-bottom:1px dotted white; }
+h1 { margin:0px;padding:0px; width:900px;height:278px; }
+img  { border:0px; }
+ul { list-style-type:square; }
+#mb a.feed { border-bottom:0px;margin-top:7px;margin-right:5px; }
+#main { width:900px;margin-left:auto;margin-right:auto;position:relative; }
+#irc { position:absolute;right:40px;top:80px;width:260px;color:white;font-size:14px;text-align:right;font-weight:bold;z-index:5; }
+#irc a { color:rgb(180,240,240); text-decoration:none;}
+#time { position:absolute;right:40px;top:100px;width:260px;color:white;font-size:14px;text-align:right; }
+#time h3 { display:none; }
+#time p.s { font-size:0.7em;text-align:justify; }
+#nav { margin:0px;padding:0px;font-family:Lucida Sans, Trebuchet MS, sans-serif;font-size:22px;color:white;margin-left:20px; }
+#nav li { list-style-type:none;display:inline-block; }
+#nav li a { display:block;text-decoration:none;color:white;padding:5px; }
+#nav li a:hover { color:rgb(200,200,200); }
+#centre { background-image:url(cbg.png); }
+h1 a { text-decoration:none;background-image:url(banner2.png);height:278px;width:900px;display:block; }
+h1 a span { display:none; }
+#footer {margin:0px;padding:5px;width:890px;height:84px;background-image:url(bot.png); }
+#footer p {padding-top:20px;padding-left:20px;color:white;font-family:Trebuchet MS, sans-serif;font-weight:bold; }
+#footer p a { color:white; }
+.clear { clear:both;display:block;height:1px; }
+#mb { padding:20px;padding-bottom:5px;padding-top:0px;color:white; }
+ul#teams { list-style-type:none;margin:0px;padding:0px; }
+ul#teams li { float:left;width:400px;height:200px;margin:5px;padding:0px;margin-bottom:10px; }
+ul#teams li dl { border: 1px dotted silver;background-color:white;color:black;height:200px; }
+ul#teams li dl dt { background-color:rgb(245,245,250);padding:5px;margin-bottom:15px; }
+table#avail { font-size:13px;background-color:rgb(240,240,240);color:black;border-spacing:0px; }
+#howtoregister,#sideinfo,.sideinfo {float:right;border-top:1px solid silver;border-bottom:1px solid silver;font-size:13px;width:450px;padding:10px; }
+foxrm#register { background-color:white;color:black; }
+#mxb form#register a { color:grey;border-bottom-color:silver; }
+form#register textarea,textarea { border:0px; background-color:rgb(240,240,240); }
+form#register ul { list-style-type:none;margin:0px;padding:0px; }
+.prev { color:#aa0088; }
+.next { color:#0088aa; }
+a.pl,.pl { background-repeat:no-repeat; padding-left:23px;background-position:2px 4px;display:block;text-decoration:none;}
+a.cl { text-decoration:none; display:block; }
+a.icl { text-decoration:none; }
+a.ipl,.ipl { background-repeat:no-repeat; padding-left:23px;background-position:2px 4px;text-decoration:none;}
+h2, h3, h4, h5 { font-family:Georgia, serif;border-bottom:1px dotted silver; }
+ul#news { list-style-type:none;margin:0px;padding:0px; }
+ul#news li span.says { display:block;font-size:1.1em; }
+ul#news li span.name { font-weight:bold;}
+ul#news li { padding-bottom:5px; margin-left:10px;margin-right:20px;margin-bottom:5px; }
+ul#news li .content {margin-left:20px; }
+.feed { float:right; }
+#sideinfo { width:350px; }
+input[type=submit] { padding:15px;font-family:Bitstream Vera Sans, sans-serif;font-size:17px;width:250px;background-color:white;color:black;border:0px;margin:10px; }
+span.title { float:right;font-weight:bold;font-size:1.0em;font-family:Georgia, serif;padding-right:15px;display:block; }
+span.says a.subber, dt a.subber, h3 a.subber { display:none; color:grey;text-align:right; }
+span.says:hover a.subber, dt:hover a.subber, h3:hover a.subber { display:inline; }
+p#languages { text-align:center;font-size:1.2em;display:none; }
+address {font-size:0.9em;text-align:right;margin-top:5px;margin-bottom:5px;padding-right:25px;display:block; }
+ul#pwt,ul#twp { list-style-type:none; }
+ul#pwt li,ul#twp li { display:inline-block; }
+ul#news {width:500px; text-align:justify;}
+dl.match dt { margin-top:5px;margin-bottom:5px; }
+dl.match dd {}
+ul#matches { list-style-type:none;margin:0px;padding:0px; }
+ul#matches li.match { margin:5px; border:1px solid black;padding:5px;background-color:rgb(50,50,50);padding-bottom:10px;}
+ul#matches li.match dl dt { font-weight:bold; }
+#mb ul#matches li.match dt a.num { padding-bottom:5px; }
+ul#matches li.match.unconfirmed { background-color:rgb(150,150,150); }
+ul#matches li.match.incomplete { background-color:rgb(100,100,100); }
+#mb ul#matches dl dt span a { border-bottom-width:0px; color:white;}
+#mb ul#matches dl dt span a:hover {color:silver;;}
+table.ttree { font-family:Tahoma, sans-serif;font-size:13px;padding:8px; background-color:rgb(253,253,255);border:1px solid black;margin: 0 auto; }
+#mb table.ttree a,#mb table.ttree a:visited { color:rgb(120,120,175);text-decoration:none;border-bottom:0px; }
+#mb table.ttree {color:black;}
+table.ttree th { padding-bottom:3px; }
+.rline { border-right:1px solid black; }
+table.ttree tr {height:22px; }
+table.ttree caption { margin:5px; color:white;font-weight:bold;text-align:left;font-size:1.1em; }
+.fighter { background-color:rgb(245,245,245);padding:2px; }
+.goto { background-repeat:repeat-x;background-image:url('black.png'); }
+
+.finalist { background-color:rgb(255,175,175); }
+td.winner { background-color:rgb(255,255,30); }
+td.matchdata { font-size:10px;text-align:right;padding-right:3px; }
+a.matchid { font-family:Georgia, sans-serif;font-size:1.1em; display:inline-block;width:35px;text-align:right;}
+.imp { border:1px solid red; background-color:white;color:black; padding:10px;margin:10px; }
+ul#tlist { border:1px solid black;background-color:white;padding:10px;list-style-type:square;width:92.5%; }
+ul#tlist li { display:inline-block;width:24.5%; margin:0px;padding:0px;}
+#mb ul#tlist li a {color:#333333;display:block;padding-top:4px;padding-bottom:4px;padding-left:27px;background-position:5px center;}
+#mb ul#tlist li a:hover { background-color:silver; }
+.credit { font-size:0.8em; }

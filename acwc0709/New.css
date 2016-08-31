@@ -1,0 +1,74 @@
+body { font-family:Tahoma, sans-serif;font-size:15px;overflow-y:scroll; }
+ .clear { height:1px; clear:both; }
+#dnt { float:right;width:46%; }
+#dnt2 { float:right; width:46%; }
+#ml { float:left;width:53%; }
+#gif { float:left;width:53%; }
+.team_bl, .team_us, .team_de, .team_la,.team_au,.team_uk,.team_br,.team_fi
+{ background-repeat:no-repeat;padding-left:23px;background-position:2px 4px;  }
+.team_bl { background-image:url('images/bl.png'); }
+.team_br { background-image:url('images/br.png'); }
+.team_de { background-image:url('images/de.png'); }
+.team_uk { background-image:url('images/gb.png'); }
+.team_fi { background-image:url('images/fi.png'); }
+.team_la { background-image:url('images/co.png'); }
+.team_au { background-image:url('images/au.png'); }
+.team_us { background-image:url('images/us.png'); }
+table a, table a:visited { color:rgb(120,120,175); }
+table th { padding-bottom:3px; }
+.rline { border-right:1px solid black; }
+.fighter { background-color:rgb(245,245,245);padding:2px; }
+.goto { background-repeat:repeat-x;
+background-image:url('black.png'); }
+table { font-size:15px;margin-left:50px; }
+table td { height:15px; }
+#time p.time {font-weight:bold }
+body { text-align:center; }
+#main { text-align:left; width:993px;margin: 0 auto; }
+ul#teams { margin:0px;padding:0px;list-style-type:none; }
+ul#teams li { margin:3px;padding:0px;width:300px;float:left;height:190px;border:1px solid black;}
+ul#teams li dl { margin:0px;padding:0px; }
+ul#teams li dl dt { padding-left:10px;border-bottom:1px dotted silver;
+padding-top:5px; padding-bottom:4px;
+background-color:rgb(245,245,250);margin-bottom:15px;}
+ul.ma { list-style-type:none;padding:0px;}
+
+p.time, ul.ma li { border:1px solid black; border-bottom:0px; background-color:rgb(245,245,250);padding:3px;margin:0px; }
+p.time,ul.ma li.last { border-bottom:1px solid black; }
+table { padding:8px; background-color:rgb(253,253,255);border:1px solid black;margin: 0 auto; }
+.finalist { background-color:rgb(255,175,175); }
+.winner { background-color:rgb(255,255,30); }
+ a,a:visited  { text-decoration:none;color:rgb(130,130,185); }
+ a:hover { color:rgb(130,130,225); }
+ul#menu { list-style-type:none; font-size:1.5em;font-weight:bold;}
+ul#menu li { display:inline-block;margin-right:10px; }
+.lt { color:rgb(240,0,0); }
+h1 { padding-bottom:5px;border-bottom:2px dashed rgb(240,90,50);margin-bottom:0px; }
+.team_lost { background-color:rgb(255,240,240); border:1px solid red; }
+.team_won { background-color:rgb(240,255,240);border:1px solid lime; }
+ul.gal { list-style-type:none;margin:0px; padding:0px; }
+ul.gal li { display:inline-block;margin:0px;padding:0px; }
+img { border:0px; }
+td.matchdata { font-size:0.7em;text-align:right;padding-right:3px; }
+/* Lightbox */
+ 
+#lightbox{
+	background-color:#eee;
+	padding: 10px;
+	border-bottom: 2px solid #666;
+	border-right: 2px solid #666;
+	}
+#lightboxDetails{
+	font-size: 0.8em;
+	padding-top: 0.4em;
+	}	
+#lightboxCaption{ float: left; }
+#keyboardMsg{ float: right; }
+#closeButton{ top: 5px; right: 5px; }
+
+#lightbox img{ border: none; clear: both;} 
+#overlay img{ border: none; }
+
+#overlay{ background-image: url(overlay.png); }
+
+ul#teams dd { font-size:.9em; }

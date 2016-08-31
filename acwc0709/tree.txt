@@ -1,0 +1,97 @@
+
+Preliminaries:
+Mode:	CTF
+Map:	ac_power
+How:	Team 1 plays RVSF, Team 2 plays CLA. 
+		After the game is done, they swap.
+		The one with the higher score wins.
+		Flags, then frags, then deaths.
+
+[ Brazil A	]
+		|---> [ Brazil ?	]
+[ Brazil B	]
+
+
+[ USA A		]
+		|---> [ USA ?		]
+[ USA B		]
+
+
+First elimination:
+Mode:	CTF
+Map: 	ac_shine
+How:	Aggregate score
+
+[ Team 1	]
+		|---> [ Team 9		]
+[ Team 2	]
+
+[ Team 3	]
+		|---> [ Team 10		]
+[ Team 4	]
+
+[ Team 5	]
+		|---> [ Team 11		]
+[ Team 6	]
+
+[ Team 7	]
+		|---> [ Team 12		]
+[ Team 8	]
+
+Second elimination:
+Mode: CTF
+Map: ac_sunset
+How: Aggregate score
+
+[ Team 9	]
+		|---> [ Team 13		]
+[ Team 10	]
+
+[ Team 11	]
+		|---> [ Team 14		]
+[ Team 12	]
+
+Final:
+How:	Three maps will be played on both sides:
+		15 minutes x 3 modes x 2 maps =
+		90 minutes = 1.30 hours
+		Best two of three wins.
+
+First game:
+Mode:	TOSOK
+Map:	ac_desert
+How:	Aggregate score (both sides)
+
+Second game:
+Mode:	TDM
+Map:	ac_complex
+How: 	Aggregate score (both sides)
+
+Third game:
+Mode:	CTF
+Map:	ac_mines
+How:	Aggregate score (both sides)
+
+[ Team 13	]
+		|---> [ Winner		]
+[ Team 14	]
+
+
+
+The tree:
+
+[	]
+	|---> [	]
+[	]	|
+		|---> [	]
+[	]	|	|
+	|---> [	]	|
+[	]		|
+			|---> [	]
+[	]		|
+	|---> [	]	|
+[	]	|	|
+		|---> [	]
+[	]	|
+	|---> [ ]
+[	]
